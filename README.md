@@ -1,103 +1,116 @@
-# AI Blog Craft
+# AI Blog Craft 🚀
 
-A powerful AI-powered blog post generator that helps you create engaging and professional-quality content in minutes.
+<div align="center">
+  <img src="screenshots/main-interface.png" alt="AI Blog Craft Main Interface" width="800"/>
+  
+  [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+  [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
+  [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+</div>
 
-## Features
+## 🌟 Overview
 
-- 🤖 AI-powered content generation
-- 🎨 Beautiful and modern UI
-- 📝 Multiple tone options
-- 📊 Word count customization
-- 🏷️ Category selection
-- 📈 Optional statistics inclusion
-- 📋 Real-time preview
-- 📋 Easy content copying
+AI Blog Craft is a cutting-edge blog post generator that leverages artificial intelligence to create engaging, professional-quality content in minutes. Perfect for content creators, marketers, and anyone looking to generate well-structured blog posts efficiently.
 
-## Tech Stack
+## ✨ Features
 
-- Frontend: React.js with Tailwind CSS
-- Backend: Python with Flask
-- AI: OpenAI GPT
-- Styling: Tailwind CSS, Heroicons
+- 🤖 **AI-Powered Content Generation** - Utilizes advanced AI to create human-like content
+- 🎨 **Modern & Intuitive UI** - Beautiful, responsive interface built with React and Tailwind CSS
+- 📝 **Multiple Tone Options** - Choose from Professional, Casual, Technical, Educational, or Entertaining tones
+- 📊 **Flexible Word Count** - Select your desired content length from multiple presets
+- 🎯 **Category Selection** - Multiple categories including Technology, Health, Business, and more
+- 📈 **Statistics Integration** - Option to include relevant statistics and data points
+- 👥 **Target Audience Customization** - Tailor content for specific audience segments
+- 📋 **One-Click Copy** - Easy content copying with a single click
 
-## Getting Started
+## 🖥️ Generated Blog Preview
 
-### Prerequisites
+<div align="center">
+  <img src="screenshots/generated-blog.png" alt="Generated Blog Preview" width="800"/>
+</div>
 
-- Node.js (v14 or higher)
-- Python (v3.7 or higher)
-- npm or yarn
+## 🛠️ Tech Stack
 
-### Installation
+- **Frontend**:
 
-1. Clone the repository:
+  - React.js
+  - Tailwind CSS
+  - Heroicons
+  - Axios
 
-```bash
-git clone https://github.com/yourusername/medium-blog-generator.git
-cd medium-blog-generator
-```
+- **Backend**:
+  - Python
+  - Flask
+  - OpenAI GPT
+  - SQLite
 
-2. Install Frontend Dependencies:
+## 📦 Installation
 
-```bash
-cd Frontend/medium-frontend
-npm install
-```
+1. **Clone the repository**:
 
-3. Install Backend Dependencies:
+   ```bash
+   git clone https://github.com/harithikchoudhary/MediumBlogGenerator.git
+   cd MediumBlogGenerator
+   ```
 
-```bash
-cd Backend
-pip install -r requirements.txt
-```
+2. **Frontend Setup**:
 
-4. Set up environment variables:
-   Create a `.env` file in the Backend directory with your OpenAI API key:
+   ```bash
+   cd Frontend/medium-frontend
+   npm install
+   npm start
+   ```
 
-```
-OPENAI_API_KEY=your_api_key_here
-```
+3. **Backend Setup**:
 
-### Running the Application
+   ```bash
+   cd Backend
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
-1. Start the Backend Server:
+4. **Environment Configuration**:
+   Create a `.env` file in the Backend directory:
+   ```env
+   OPENAI_API_KEY=your_api_key_here
+   ```
 
-```bash
-cd Backend
-python app.py
-```
+## 🖥️ Usage
 
-2. Start the Frontend Development Server:
-
-```bash
-cd Frontend/medium-frontend
-npm start
-```
-
-3. Open your browser and navigate to `http://localhost:3000`
-
-## Usage
-
-1. Enter your blog topic
-2. Select the desired category
-3. Choose the tone of your content
-4. Specify your target audience
-5. Set the word count
+1. Enter your desired blog topic
+2. Select the appropriate category
+3. Choose your preferred tone
+4. Specify target audience
+5. Set desired word count
 6. Add relevant keywords
-7. Toggle statistics inclusion
+7. Toggle statistics inclusion if needed
 8. Click "Generate Blog"
-9. Copy the generated content
+9. Review and copy your generated content
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are always welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
 
-## License
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - OpenAI for providing the GPT API
 - React.js and Tailwind CSS communities
-- All contributors and users of this project
+- All our contributors and users
+
+## 📞 Contact
+
+Harithik Choudhary - [@harithikchoudhary](https://github.com/harithikchoudhary)
+
+Project Link: [https://github.com/harithikchoudhary/MediumBlogGenerator](https://github.com/harithikchoudhary/MediumBlogGenerator)
